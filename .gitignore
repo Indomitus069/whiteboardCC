@@ -1,0 +1,34 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Frontend (Next.js)
+frontend/.next/
+frontend/out/
+frontend/.vercel/
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+
+# Backend (TypeScript build)
+backend/dist/
+backend/.env
+backend/.env.*
+backend/.env.local
+
+# Coverage / temp
+coverage/
+tmp/
+
+# Logs
+**/*.log
+
+# Trae / IDE local
+.trae/
